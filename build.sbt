@@ -5,7 +5,7 @@ def BaseProject(name: String, path: String): Project =
     .settings(
       organization := "io.kalulu",
       version := "0.0.2",
-      scalaVersion := "2.11.8",
+      scalaVersion := "2.12.1",
       scalacOptions ++= Seq("-deprecation", "-feature", "-Xfatal-warnings"),
       homepage := Some(url("https://github.com/jeckhart/scalajs-screeps")),
       licenses +=("BSD 3-Clause", url("http://opensource.org/licenses/BSD-3-Clause")),
